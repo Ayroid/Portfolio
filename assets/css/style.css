@@ -413,7 +413,7 @@ li {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;max-width: 500px
+    align-items: center;
     color: white;
     font-weight: 600;
 }
