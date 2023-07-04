@@ -382,16 +382,28 @@ li {
     grid-template-columns: repeat(9, 12rem);
     grid-template-rows: repeat(2, 12rem);
     gap: 1rem;
-    animation: slide-left 20s infinite alternate ease-in-out;
+    animation: slide-left 10s infinite alternate ease-in-out;
 }
 
 @keyframes slide-left {
     0% {
-        transform: translateX(5%);
+        transform: translateX(0%);
     }
 
     100% {
-        transform: translateX(-90%);
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width:400px){
+    @keyframes slide-left {
+        0% {
+            transform: translateX(0%);
+        }
+    
+        100% {
+            transform: translateX(-280%);
+        }
     }
 }
 
@@ -434,6 +446,23 @@ li {
 
     .grid-container {
         margin: 0 5rem;
+    }
+}
+
+@media (max-width:800px) {
+    .grid-container {
+        grid-template-columns: repeat(9, 7rem);
+        grid-template-rows: repeat(2, 7rem);
+        gap: 0.65rem;
+    }
+
+    .grid-item img {
+        height: 3.5rem;
+        filter: invert(0.9);
+    }
+
+    .grid-item {
+        font-size: 0.8rem;
     }
 }
 
