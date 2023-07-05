@@ -290,11 +290,12 @@ li {
         color: white;
         font-size: 24px;
         font-weight: 600;
+        position: fixed;
     }
 
     .mobile-navbar-logo {
         display: flex;
-        position: relative;
+        position: fixed;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -316,6 +317,18 @@ li {
 
     .hamburger img {
         height: 2rem;
+    }
+
+    .mobile-navbar-menu {
+        width: 100%;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        color: var(--textone);
+        flex-shrink: 1;
+        height: 7rem;
     }
 
     .mobile-navbar-menu-list {
