@@ -3,6 +3,7 @@
 :root {
     --primary: #0c0c0c;
     --secondary: #101011;
+    --grid: #131313;
     --textone: #38393D;
     --line: #735DFA;
 }
@@ -409,7 +410,7 @@ li {
 
 .grid-item {
     border-radius: 10px;
-    background-color: #131313;
+    background-color: var(--grid);
     text-align: center;
     display: flex;
     justify-content: center;
