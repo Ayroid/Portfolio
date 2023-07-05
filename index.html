@@ -15,12 +15,33 @@
     <div class="navbar-container">
         <div class="navbar-logo">
             <a href="#main">AYROID</a>
+        </div>
+        <div class="navbar-menu" id="navbar-menu">
+            <ul class="navbar-menu-list" id="navbar-menu-list">
+                <li class="navbar-menu-item">
+                    <a href="#main" class="navbar-menu-link active">HOME</a>
+                </li>
+                <li class="navbar-menu-item">
+                    <a href="#about" class="navbar-menu-link">ABOUT</a>
+                </li>
+                <li class="navbar-menu-item">
+                    <a href="#projects" class="navbar-menu-link">PROJECTS</a>
+                </li>
+                <li class="navbar-menu-item">
+                    <a href="#contact" class="navbar-menu-link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mobile-navbar-container">
+        <div class="mobile-navbar-logo">
+            <a href="#main">AYROID</a>
             <div class="hamburger" id="hamburger" onclick="toggleNavbar(true)">
                 <img src="assets/logos/hamburger.png" alt="">
             </div>
         </div>
         <div class="navbar-menu" id="navbar-menu">
-            <ul class="navbar-menu-list" id="navbar-menu-list">
+            <ul class="mobile-navbar-menu-list" id="mobile-navbar-menu-list">
                 <li class="navbar-menu-item" onclick="toggleNavbar(false)">
                     <a href="#main" class="navbar-menu-link active">HOME</a>
                 </li>

@@ -1,6 +1,6 @@
 function toggleNavbar() {
     if (window.innerWidth < 800) {
-        const navbar = document.getElementById('navbar-menu-list');
+        const navbar = document.getElementById('mobile-navbar-menu-list');
         if (!navbar.classList.contains('move-down')) {
             navbar.classList.add('move-down');
             navbar.classList.remove('move-up');
